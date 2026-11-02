@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34b73e07f282044a6bfcb0af0ef1aefa, type: 3}
+  m_Name: 00-face-calm
+  m_EditorClassIdentifier: Assembly-CSharp::Crony.AvatarItemSO
+  itemID: 00-face-calm
+  displayName: Calm eyes
+  category: 1
+  sprite: {fileID: 21300000, guid: 742b916ec8a1641a8867a2f22bf6d81b, type: 3}
+  supportColorTint: 0
+  defaultColor: {r: 1, g: 1, b: 1, a: 1}

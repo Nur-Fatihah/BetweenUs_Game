@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34b73e07f282044a6bfcb0af0ef1aefa, type: 3}
+  m_Name: 00-skin-light
+  m_EditorClassIdentifier: Assembly-CSharp::Crony.AvatarItemSO
+  itemID: 00-skin-light
+  displayName: Porcelain
+  category: 0
+  sprite: {fileID: 21300000, guid: 9f264d37c2fd24dfbb7d2c02ef79e2c8, type: 3}
+  supportColorTint: 1
+  defaultColor: {r: 0.9411765, g: 0.78431374, b: 0.654902, a: 1}

@@ -112,3 +112,9 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# Unity Version Control (Plastic) workspace data and local clutter
+.plastic/
+.DS_Store
+/[Aa]ssets/[Tt]emp/
+/[Aa]ssets/[Tt]emp.meta

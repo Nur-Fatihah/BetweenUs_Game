@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a890f396d79f4b76af67e750cabb000, type: 3}
+  m_Name: ConvenienceStore_IceCream
+  m_EditorClassIdentifier: Assembly-CSharp::Crony.TownshipTaskDefinition
+  kind: 1
+  taskName: Restock Ice Cream Cabinet
+  location: Convenience Store
+  instructions: Drag each local ice cream pop into the freezer slot with its matching flavor silhouette.
+  actionNames:
+  - Pandan
+  - Mango
+  - Red bean
+  - Coconut
+  requiredActions: 02000000000000000300000001000000i

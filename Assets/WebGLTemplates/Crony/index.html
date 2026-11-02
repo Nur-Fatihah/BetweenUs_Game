@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no">
+    <title>{{{ PRODUCT_NAME }}}</title>
+    <style>
+      /* The game fills whatever frame it is given (itch.io embed or fullscreen); there is no footer to crop. */
+      html, body { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; background: #141a24; }
+      #unity-canvas { display: block; width: 100%; height: 100%; background: #141a24; outline: none; }
+      #loading { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center;
+                 color: #f4e9d2; font: 600 18px/1.4 -apple-system, "Segoe UI", Arial, sans-serif; pointer-events: none; }
+      #bar { width: 260px; height: 10px; margin-top: 12px; border: 2px solid #f4e9d2; border-radius: 6px; overflow: hidden; }
+      #fill { width: 0; height: 100%; background: #d9a25a; }
+    </style>
+  </head>
+  <body>
+    <canvas id="unity-canvas" tabindex="-1"></canvas>
+    <div id="loading">Loading Crony…<div id="bar"><div id="fill"></div></div></div>
+    <script src="Build/{{{ LOADER_FILENAME }}}"></script>
+    <script>
+      createUnityInstance(document.querySelector("#unity-canvas"), {
+        dataUrl: "Build/{{{ DATA_FILENAME }}}",
+        frameworkUrl: "Build/{{{ FRAMEWORK_FILENAME }}}",
+#if USE_WASM
+        codeUrl: "Build/{{{ CODE_FILENAME }}}",
+#endif
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: {{{ JSON.stringify(COMPANY_NAME) }}},
+        productName: {{{ JSON.stringify(PRODUCT_NAME) }}},
+        productVersion: {{{ JSON.stringify(PRODUCT_VERSION) }}},
+      }, (progress) => {
+        document.getElementById("fill").style.width = (100 * progress) + "%";
+      }).then(() => {
+        document.getElementById("loading").remove();
+        document.querySelector("#unity-canvas").focus();
+      }).catch((message) => { alert(message); });
+    </script>
+  </body>
+</html>

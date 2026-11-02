@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a890f396d79f4b76af67e750cabb000, type: 3}
+  m_Name: NoticeBoard_Announcements
+  m_EditorClassIdentifier: Assembly-CSharp::Crony.TownshipTaskDefinition
+  kind: 9
+  taskName: Pin Community Announcements
+  location: Notice Board
+  instructions: Align three community flyers on their crosshairs and press each pushpin to secure them.
+  actionNames:
+  - Park Cleanup Day
+  - Badminton Signup
+  - Lake Safety Notice
+  requiredActions: 000000000100000002000000i

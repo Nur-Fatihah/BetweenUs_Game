@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf1749bc2f45a4165b687f6625038e69, type: 3}
+  m_Name: AvatarCosmeticCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::Crony.AvatarCosmeticCatalog
+  headwear:
+  - displayName: Short hair
+    sprite: {fileID: 21300000, guid: f38f232e4d6a84f1d90f53ba5fc5eb16, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 1}
+  - displayName: Long hair
+    sprite: {fileID: 21300000, guid: 0279de0e75c814874bd28f49772ba852, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 1}
+  - displayName: Hijab
+    sprite: {fileID: 21300000, guid: 2a0637c91e8d44d50af47483fb5fbbba, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 1}
+  - displayName: Songkok
+    sprite: {fileID: 21300000, guid: e6feb9eea518544fb80293332e30e837, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 1}
+  outfits:
+  - displayName: Baju Melayu
+    sprite: {fileID: 21300000, guid: 1c26dc0a1d299449ca1b3bc77e6ad1b3, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 1}
+  - displayName: Cheongsam
+    sprite: {fileID: 21300000, guid: 9e84e9089976f4fff8d44b7fed3bf5e2, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 1}
+  - displayName: Saree
+    sprite: {fileID: 21300000, guid: 135249259519246cea58181f20b9bf80, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 1}
+  - displayName: Everyday baju
+    sprite: {fileID: 21300000, guid: 79d4ca479a5604b8c92286ba6645a491, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 1}
+  accessories:
+  - displayName: None
+    sprite: {fileID: 21300000, guid: 76ae4e726b832454ab67d0e958538510, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 1}
+  - displayName: Songket brooch
+    sprite: {fileID: 21300000, guid: 8c24b61ee9df540c984f8795c13f7b2b, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 1}
+  - displayName: Flower pin
+    sprite: {fileID: 21300000, guid: 0c0d20fa01ba44e59b5c940acb7e151e, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 1}
+  - displayName: Glasses
+    sprite: {fileID: 21300000, guid: a93933f76ecb342809e47826b1de8683, type: 3}
+    tint: {r: 1, g: 1, b: 1, a: 1}
+  skinTones:
+  - {r: 0.9411765, g: 0.78431374, b: 0.654902, a: 1}
+  - {r: 0.8509804, g: 0.63529414, b: 0.49411765, a: 1}
+  - {r: 0.6627451, g: 0.42745098, b: 0.3019608, a: 1}
+  - {r: 0.49803922, g: 0.3137255, b: 0.23921569, a: 1}
+  - {r: 0.3529412, g: 0.21960784, b: 0.18431373, a: 1}
